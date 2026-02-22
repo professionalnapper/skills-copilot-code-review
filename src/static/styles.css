@@ -73,6 +73,40 @@ header h2 {
   font-size: 1.2rem;
 }
 
+/* Announcement Banner */
+.announcement-banner {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.announcement-banner.hidden {
+  display: none;
+}
+
+.close-banner {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 3px;
+  transition: background 0.2s ease;
+  margin-left: 10px;
+}
+
+.close-banner:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.close-banner:focus {
+  outline: 3px solid #1b5e20;
+  outline-offset: 2px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
